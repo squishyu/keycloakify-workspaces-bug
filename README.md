@@ -2,6 +2,8 @@
 
 Simple repository for reproducing an issue with Keycloakify when used inside Yarn/NPM Workspaces [(Keycloakify issue #380)](https://github.com/keycloakify/keycloakify/issues/380)
 
+It includes code from the [keycloakify-starter](https://github.com/keycloakify/keycloakify-starter) repository.
+
 ## What's the problem?
 
 When running a simple NPM/Yarn install while using NPM version 9+ (included in Node 18.14+), NPM throws the following error:
