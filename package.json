@@ -1,0 +1,15 @@
+{
+    "name": "root",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "resolutions": {
+        "@types/react": ">=18",
+        "@types/react-dom": ">=18"
+    },
+    "scripts": {
+        "bootstrap": "yarn install"
+    },
+    "packageManager": "yarn@3.3.0"
+}
